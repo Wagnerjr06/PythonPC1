@@ -12,4 +12,4 @@ elif (12 <= horas < 13) or (horas == 13 and minutos == 0):
 elif (18 <= horas < 19) or (horas == 19 and minutos == 0):
     print("Es la hora de la cena")
 else:
-    print("X")
+    print("")
