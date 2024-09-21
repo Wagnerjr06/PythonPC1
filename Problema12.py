@@ -9,7 +9,6 @@ mime_types= {
     '.zip': 'application/zip'
 }
 
-
 nom_archivo= input("Ingrese el nombre del archivo: ").strip()
 nom_archivo_lower= nom_archivo.lower()
 tipo_mime='application/octect-stream'
