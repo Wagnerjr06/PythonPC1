@@ -16,4 +16,4 @@ tipo_mime='application/octect-stream'
 for sufijo in mime_types.keys():
     if nom_archivo_lower.endswith(sufijo):
         tipo_mime=mime_types[sufijo]
-print(f"El tipo MIME para [nom_archivo] es {tipo_mime}")
+print(f"El tipo MIME para {nom_archivo} es {tipo_mime}")
